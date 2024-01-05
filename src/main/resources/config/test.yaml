@@ -1,0 +1,9 @@
+http:
+  host: "localhost"
+  port: "8083"
+  basepath: "/sys"
+  path: "/v1/*"
+
+GitHubContent:
+  url: "https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv"
+  method: "GET"
